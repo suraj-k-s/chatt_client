@@ -1,0 +1,44 @@
+name: chatt_client
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^4.15.4
+  firebase_auth: ^4.17.4
+  firebase_core: ^2.25.4
+  firebase_storage: ^11.6.5
+  firebase_database: ^10.4.10
+  flutter_glow: ^0.3.0
+  flutter_easyloading: ^3.0.5
+  percent_indicator: ^4.2.3
+  sticky_footer_scrollview: ^1.1.1
+  intl: ^0.18.0
+  badges: ^3.1.2
+  image_picker: ^1.0.7
+  progress_dialog_null_safe: ^3.0.0
+  shared_preferences: ^2.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/chat_background.jpg
+    - assets/login_background.jpg
+    - assets/register_background.jpg
+    - assets/dummy_profile.jpg
+    - assets/inMesssage.png
+    - assets/user_dummy.png
+    - assets/splash.gif
+
